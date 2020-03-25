@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  player1: one
+  player2: one
+  p1score: 1
+  p2score: 1
+  numRounds: 1
+  complete?: false
+
+two:
+  player1: two
+  player2: two
+  p1score: 1
+  p2score: 1
+  numRounds: 1
+  complete?: false
