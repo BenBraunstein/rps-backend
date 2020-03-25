@@ -18,10 +18,10 @@ ActiveRecord::Schema.define(version: 2020_03_25_231108) do
   create_table "games", force: :cascade do |t|
     t.integer "p1Id"
     t.integer "p2Id"
-    t.integer "p1score"
-    t.integer "p2score"
+    t.integer "p1score", default: 0
+    t.integer "p2score", default: 0
     t.integer "numRounds"
-    t.boolean "complete?"
+    t.boolean "complete?", default: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
