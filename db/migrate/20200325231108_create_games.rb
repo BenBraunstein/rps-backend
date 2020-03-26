@@ -3,6 +3,7 @@ class CreateGames < ActiveRecord::Migration[6.0]
     create_table :games do |t|
       t.integer :p1Id
       t.integer :p2Id
+      t.integer :winnerId
       t.integer :p1score, :default => 0
       t.integer :p2score, :default => 0
       t.integer :numRounds
